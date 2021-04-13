@@ -1,0 +1,89 @@
+@font-face {
+    font-family: CocogooseLight;
+    src: url(../fonts/Cocogoose\ Pro\ Light-trial.ttf);
+}
+
+@font-face {
+    font-family: CocogooseThin;
+    src: url(../fonts/Cocogoose\ Pro\ Thin-trial.ttf);
+}
+
+@font-face {
+    font-family: CocogooseUltralight;
+    src: url(../fonts/Cocogoose\ Pro\ Ultralight-trial.ttf);
+}
+
+@font-face {
+    font-family: CocogooseBold;
+    src: url(../fonts/Cocogoose\ Pro-trial.ttf);
+}
+
+/* Variables used in the projects */
+
+:root {
+    --primary-color: #272a31; 
+    --secondary-color: #ec5242; 
+    --tertiary-color: #d3d3d3;
+    --white-color: #ffffff; 
+    --lato-font-family: 'Lato', sans-serif;
+}
+
+/* General styles STARTS */
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.active {
+    color: var(--secondary-color) !important;
+}
+
+/* General styles ENDS */
+
+/* Navbar STARTS */
+
+.first-navbar, .first-navbar nav, .first-navbar div {
+    background-color: var(--primary-color);
+    font-family: var(--lato-font-family);
+}
+
+.first-navbar a {
+    color: var(--tertiary-color);
+    font-family: var(--lato-font-family);
+}
+
+.second-navbar {
+    background-color: var(--white-color);
+}
+
+.second-navbar a {
+    color: var(--tertiary-color);
+    font-family: var(--lato-font-family);
+    font-weight: 600;
+    padding: 0;
+}
+
+.Navbar-button {
+    padding: 8px;
+    border: 5px var(--secondary-color) solid;
+    color: var(--secondary-color);
+    background-color: var(--white-color);
+}
+
+/* Navbar ENDS */
+
+/* Hero Page STARTS */
+
+.hero-page {
+    background: linear-gradient(0deg, rgba(250,250,236,.85) 0%, rgba(255,255,255,.85) 102%, rgba(255,255,255,.97) 100%), url(../img/background-heropage.jpg);
+    height: 90vh;
+    width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Hero Page ENDS */
