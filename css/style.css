@@ -246,3 +246,7 @@ body {
     font-size: 20px;
     color: var(--secondary-color);
 }
+
+.ticket-grid {
+    background: gray;
+}

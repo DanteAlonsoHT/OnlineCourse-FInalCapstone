@@ -1,18 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Online Course (Computer Vision) Website
 
-> One paragraph statement about the project.
+> This project is the final capstone for the first module (HTML - CSS).
+
+The next website is about a Master Bootcamp about Computer Vision, it's just an instance according to the website to sell a software course.
+For this project, I've used HTML, CSS and Bootstrap to the entire website, also I've included GRID and flexbox to make more professional distribution of elements inside specific parts into the website.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+I've used 1 breakpoint only, for this reasson the website is responsive for mobile and desktop layouts.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
+- Git / GitHub
 
 ## Live Demo
 
