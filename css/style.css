@@ -22,9 +22,11 @@
 
 :root {
     --primary-color: #272a31; 
-    --secondary-color: #ec5242; 
+    --secondary-color: #ec5242;
+    --secondary-transparent-color: #ec5342db; 
     --tertiary-color: #d3d3d3;
     --white-color: #ffffff; 
+    --primary-color-bg: #fff1;
     --lato-font-family: 'Lato', sans-serif;
 }
 
@@ -85,5 +87,162 @@ body {
     background-position: center;
 }
 
+.main-section {
+    padding: 8px;
+    color: var(--secondary-color);
+}
+
+.main-section div {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0 !important;
+}
+
+.main-section h1 {
+    font-size: 30px;
+    font-family: CocogooseBold;
+    letter-spacing: 1.5px;
+    color: var(--secondary-transparent-color);
+}
+
+.main-section p {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.main-section h1::after {
+    content: ' 2021';
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+    .main-section h1 {
+        margin-top: 16px;
+        font-size: 50px;
+        font-weight: 800;
+        font-family: CocogooseBold;
+        letter-spacing: 1.5px;
+        color: var(--secondary-transparent-color);
+    }
+
+    .main-section div {
+        font-size: 36px;
+        font-weight: 400;
+    }
+  }
 
 /* Hero Page ENDS */
+
+/* About section STARTS */
+
+.about-page {
+    background-color: var(--primary-color);
+	background-image: radial-gradient(#777 5%, transparent 5%),
+	radial-gradient(#777 5%, transparent 5%);
+	background-size: 30px 30px;
+	background-position: 0 0, 15px 15px;
+    padding: 64px 8px;
+}
+
+.about-section {
+    color: var(--tertiary-color);
+    text-align: center;
+}
+
+.about-line {
+    border: var(--secondary-color) 1px solid;
+    width: 15%;
+    max-width: 104px;
+    margin: 0 auto;
+}
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 8px;
+    border: var(--tertiary-color) 1px solid;
+    padding: 32px 16px;
+    max-width: 300px;
+    background-color: var(--primary-color-bg);
+}
+
+.about-item img {
+    background-color: var(--tertiary-color);
+}
+
+.about-item h3 {
+    color: var(--secondary-color);
+    margin: 16px 0;
+}
+
+.about-item p {
+    color: var(--tertiary-color);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* About section ENDS */
+
+.tickets-instructions {
+    font-weight: 600;
+    padding: 6px 0;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tickets-instructions strong {
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+
+.ticket-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  border:  10px solid transparent;
+  background: 
+    linear-gradient(#fff,#fff) center/calc(100% - 2px) calc(100% - 2px) padding-box,
+    repeating-linear-gradient( -45deg, 
+    transparent 2px, transparent 2px, 
+    var(--primary-color) 16px, var(--white-color) 32px ,var(--secondary-color) 48px) border-box;
+  background-repeat:no-repeat;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 5; }
+    .div4 { grid-area: 1 / 5 / 2 / 6; }
+    .div5 { grid-area: 2 / 1 / 3 / 2; }
+    .div6 { grid-area: 2 / 2 / 3 / 3; }
+    .div7 { grid-area: 2 / 3 / 3 / 4; }
+    .div8 { grid-area: 2 / 4 / 3 / 5; }
+    .div9 { grid-area: 2 / 5 / 3 / 6; }
+    .div10 { grid-area: 3 / 1 / 4 / 2; }
+    .div11 { grid-area: 3 / 2 / 4 / 3; }
+    .div12 { grid-area: 3 / 3 / 4 / 4; }
+    .div13 { grid-area: 3 / 4 / 4 / 5; }
+    .div14 { grid-area: 3 / 5 / 4 / 6; }
+    .div15 { grid-area: 4 / 1 / 5 / 2; }
+    .div16 { grid-area: 4 / 2 / 5 / 3; }
+    .div17 { grid-area: 4 / 3 / 5 / 4; }
+    .div18 { grid-area: 4 / 4 / 5 / 5; }
+    .div19 { grid-area: 4 / 5 / 5 / 6; }
+
+.price-grid {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
