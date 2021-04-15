@@ -80,10 +80,10 @@
         <!--MAIN-HOME section ENDS-->
         <!--About section STARTS-->
         <section>
-          <div class="container-fluid about-page">
+          <div class="container-fluid about-page p-0">
               <div class="container-md">
                 <div class="row">
-                  <div class="col-12">
+                  <div class="col-12 p-0 m-0">
                     <article class="mt-5 pt-0 about-section">
                       <h2 class="mt-2">MASTER COMPUTER VISION'S BOOTCAMP</h2>
                       <p class="border border-white mt-3 p-2">Check out about our Master to become a computer vision engineer.</p>
@@ -92,23 +92,31 @@
                     <div class="about-cards mt-5">
                       <div class="about-item">
                         <a href="#"><img src="img/036-computer.svg" alt="about-image1" height="84"></a>
-                        <h3>About</h3>
-                        <p>Hello guys! Add text here please, I feel alone :(</p>
+                        <div class="d-flex flex-column">
+                          <h3>About</h3>
+                        <p>You just need one computer and programming fundamentals to start our course from scratch to hero in computer vision area.</p>
+                        </div>
                       </div>
                       <div class="about-item">
-                        <a href="#"><img src="img/036-computer.svg" alt="about-image1" height="84"></a>
-                        <h3>About</h3>
-                        <p>Hello guys! Add text here please, I feel alone :(</p>
+                        <a href="#"><img src="img/022-geography.svg" alt="about-image1" height="84"></a>
+                        <div class="d-flex flex-column">
+                          <h3>Anywhere</h3>
+                        <p>Study from anywhere according to your current location, everything is going to be online with flexible times to complete it.</p>
+                        </div>
                       </div>
                       <div class="about-item">
-                        <a href="#"><img src="img/036-computer.svg" alt="about-image1" height="84"></a>
-                        <h3>About</h3>
-                        <p>Hello guys! Add text here please, I feel alone :(</p>
+                        <a href="#"><img src="img/018-elearning.svg" alt="about-image1" height="84"></a>
+                        <div class="d-flex flex-column">
+                          <h3>Learning</h3>
+                        <p>You can complete the master in your own pace, but we provide you deadlines to have consideration if you want to use it</p>
+                        </div>
                       </div>
                       <div class="about-item">
-                        <a href="#"><img src="img/036-computer.svg" alt="about-image1" height="84"></a>
-                        <h3>About</h3>
-                        <p>Hello guys! Add text here please, I feel alone :(</p>
+                        <a href="#"><img src="img/021-exam.svg" alt="about-image1" height="84"></a>
+                        <div class="d-flex flex-column">
+                          <h3>Final Exam</h3>
+                        <p>In order to get a certificate, you are going to do a test and you must have a grade over 70% to get your certificate.</p>
+                        </div>
                       </div>
                     </div>
                     <a href="#" class="d-block text-white text-center my-5 fs-5">SEE THE COMPLETE PROGRAM</a>
@@ -120,12 +128,13 @@
       <section>
         <div class="container-fluid ticket-page">
             <div class="container-md">
+              <form id="register-form" action="#" method="GET">
               <div class="row">
                 <div class="col-12">
                   <article class="mt-5 pt-0 ticket-section">
                     <h2 class="mt-2 text-center">Select Tickets</h2>
                     <div class="my-3 about-line"></div>
-                    <p class="border border-ight rounded-pill mt-3 p-2 text-center tickets-instructions"> <strong>FIRSTABLE:</strong> Select the day you want to start.</p>
+                    <p class="border border-light rounded-pill mt-3 p-2 text-center tickets-instructions"> <strong>FIRSTABLE:</strong> Select the day you want to start.</p>
                     <div class="ticket-grid my-5 text-center align-items-center">
                       <div class="div1">Ticket </div>
                       <div class="div2">3 Months-Ticket </div>
@@ -166,13 +175,34 @@
                   </article>
                 </div>
               </div>
+              <div class="row pb-5">
+                <button class="py-4 submit-buttom" type="submit" id="register-submit">Join Master Bootcamp Computer Vision 2021</button>
+              </div>
+            </form>
             </div>
         </div>
     </section>
       <!--About section ENDS-->
     </main>
     <footer>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div class="container-md">
+        <div class="row mt-3">
+          <div class="col-12">
+            <ul class="d-flex justify-content-center m-0 p-0">
+              <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+              <li><a href="#"></a><i class='bx bxl-twitter'></i></li>
+              <li><a href="#"></a><i class='bx bxl-youtube'></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row text-center my-3">
+          <p>Copyright &copy; 2021 ComputerVZ - Final Capstone Module HTML/CSS</p>
+        </div>
+        <div class="row border my-3 py-2 px-0 d-md-flex">
+          <div class="text-center">Icons made by <a class="text-decoration-none" href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a class="text-decoration-none" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div class="text-center">Design idea by <a class="text-decoration-none" href="https://www.behance.net/adagio07">Cindy Shin | GUI & Graphic Designer</a> </div>
+        </div>
+      </div>
     </footer>
     <!--Import Lato Font-->
     <style>
