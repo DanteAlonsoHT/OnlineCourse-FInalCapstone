@@ -1,6 +1,6 @@
-node_modules
-
-.github
-.hintrc
-.stylelintrc.json
+# .gitignore
+node_modules/
+hint-report/
 *.json
+.hintrc
+*.md
