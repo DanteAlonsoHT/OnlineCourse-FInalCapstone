@@ -25,7 +25,7 @@ I've used 1 breakpoint only, for this reason, the website is responsive for mobi
 
 ## Live Demo 👀
 
-[Live Demo Link](https://hamdiheb.github.io/perma_clone/)
+[Live Demo Link](https://dantealonsoht.github.io/OnlineCourse-FInalCapstone/#)
 
 ### Install
 
@@ -63,7 +63,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hamdiheb/perma_clone/issues).
+Feel free to check the [issues page](https://github.com/DanteAlonsoHT/OnlineCourse-FInalCapstone/issues).
 
 
 ## Show your support
