@@ -61,6 +61,11 @@ body {
   font-family: var(--lato-font-family);
 }
 
+.first-navbar {
+  position: fixed;
+  z-index: 10;
+}
+
 .second-navbar {
   background-color: var(--white-color);
   position: fixed;
@@ -118,7 +123,11 @@ body {
 
 @media screen and (min-width: 768px) {
   .second-navbar {
-    position: relative;
+    background-color: var(--white-color);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 24px;
   }
 
   .main-section h1 {
