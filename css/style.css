@@ -240,6 +240,12 @@ body {
 
 /* Tickets Section STARTS */
 
+.title-tickets {
+  padding-top: 22px;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
 .ticket-page,
 .ticket-section {
   background: #eee;
