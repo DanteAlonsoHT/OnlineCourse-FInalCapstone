@@ -47,7 +47,7 @@ body {
 }
 
 #activeNowTickets {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 /* General styles ENDS */
@@ -422,7 +422,7 @@ footer a:hover {
 
 .text-speaker-line {
   margin: 8px 0;
-  max-height: 1;
+  max-height: 1px;
   min-width: 26px;
   max-width: 32px;
   border-top: var(--primary-color) 1px solid;
@@ -454,7 +454,7 @@ footer a:hover {
 }
 
 .about-main-section h1 {
-  font-family: CocogooseBold;
+  font-family: CocogooseBold, sans-serif;
   color: #ec5242;
   font-size: 28px;
 }
@@ -476,7 +476,7 @@ footer a:hover {
   }
 
   .about-main-section h1 {
-    font-family: CocogooseBold;
+    font-family: CocogooseBold, sans-serif;
     color: #ec5242;
     font-size: 42px;
   }
@@ -502,7 +502,6 @@ footer a:hover {
   padding: 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: cover;
   color: var(--tertiary-color);
 }
 
@@ -513,7 +512,6 @@ footer a:hover {
   padding: 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: cover;
   color: var(--tertiary-color);
 }
 
