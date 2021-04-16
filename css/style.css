@@ -38,8 +38,16 @@ body {
   border: 0;
 }
 
-.active {
-  color: var(--secondary-color) !important;
+#activeNowHome {
+  color: var(--secondary-color);
+}
+
+#activeNowAbout {
+  color: var(--secondary-color);
+}
+
+#activeNowTickets {
+  color: var(--secondary-color)
 }
 
 /* General styles ENDS */
@@ -72,7 +80,6 @@ body {
 
 .hero-page {
   background: linear-gradient(0deg, rgba(250, 250, 236, 0.85) 0%, rgba(255, 255, 255, 0.85) 102%, rgba(255, 255, 255, 0.97) 100%), url(../img/background-heropage.jpg);
-  height: 115vh;
   width: 100%;
   padding: 0;
   background-repeat: no-repeat;
@@ -87,7 +94,7 @@ body {
 .main-section div {
   font-size: 22px;
   font-weight: 400;
-  margin-top: 0 !important;
+  margin-top: 0;
 }
 
 .main-section h1 {
@@ -140,7 +147,6 @@ body {
   background-size: 30px 30px;
   background-position: 0 0, 15px 15px;
   padding: 64px 8px;
-  min-height: 120vh;
 }
 
 .about-section {
@@ -387,3 +393,128 @@ footer a:hover {
   color: var(--tertiary-color);
   text-decoration: underline;
 }
+
+/* Featured speakers STARTS */
+
+.featured-speaker-card .image-spaker {
+  min-width: 144px;
+  height: 130px;
+}
+
+.speaker-img {
+  height: 110px;
+  width: 122px;
+}
+
+.text-speaker {
+  margin: 12px 0;
+  padding: 4px;
+}
+
+.text-speaker h4 {
+  font-weight: 700;
+}
+
+.text-speaker span {
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.text-speaker-line {
+  margin: 8px 0;
+  max-height: 1;
+  min-width: 26px;
+  max-width: 32px;
+  border-top: var(--primary-color) 1px solid;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-speaker-card .image-spaker {
+    min-width: 164px;
+    height: 150px;
+  }
+
+  .speaker-img {
+    height: 130px;
+    width: 144px;
+  }
+
+  .w-md-75 {
+    margin: 16px auto;
+    width: 80%;
+  }
+}
+
+/* Featured speakers ENDS */
+
+/* About main page STARTS */
+
+.about-main-section {
+  height: auto;
+}
+
+.about-main-section h1 {
+  font-family: CocogooseBold;
+  color: #ec5242;
+  font-size: 28px;
+}
+
+.about-main-section h1::after {
+  content: ' 2021';
+  font-family: sans-serif;
+  color: #ec5242;
+  font-weight: 900;
+}
+
+.fs-12 {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .fs-12 {
+    font-size: 18px;
+  }
+
+  .about-main-section h1 {
+    font-family: CocogooseBold;
+    color: #ec5242;
+    font-size: 42px;
+  }
+}
+
+/* About main page STARTS */
+
+/* About logo STARTS */
+
+.logo-border {
+  margin: 8px auto;
+  max-width: 350px;
+}
+
+/* About logo ENDS */
+
+/* Past Bootcamps STARTS */
+
+.pastBootcamp-card1 {
+  min-height: 250px;
+  max-height: 320px;
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/pastBootcamp1.jpg);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: cover;
+  color: var(--tertiary-color);
+}
+
+.pastBootcamp-card2 {
+  min-height: 250px;
+  max-height: 320px;
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/pastBootcamp2.jpg);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: cover;
+  color: var(--tertiary-color);
+}
+
+/* Past Bootcamps ENDS */

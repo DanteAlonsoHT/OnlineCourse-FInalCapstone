@@ -41,13 +41,13 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0 d-block d-md-flex justify-content-end w-100">
                   <li class="nav-item p-2">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" id="activeNowHome" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item ps-md-4 p-2">
-                    <a class="nav-link" href="#about-section">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item ps-md-4 p-2">
-                    <a class="nav-link" href="#tickets-section">Tickets</a>
+                    <a class="nav-link" href="tickets.html">Tickets</a>
                   </li>
                   <li class="nav-item ps-md-4 p-2">
                     <a class="nav-link" href="#">Program</a>
@@ -71,12 +71,13 @@
                 <div class="container-md">
                   <div class="row">
                     <div class="col-12 col-md-10">
-                      <article class="mt-5 pt-5 main-section">
+                      <article class="mt-5 pt-4 main-section">
                         <div class="d-block mt-5 pt-5">"Hello! Computer Visioner"</div>
                         <h1 class="mt-2">MASTER COMPUTER VISION'S BOOTCAMP</h1>
-                        <p class="border border-white m-0 p-2">Welcome to enjoyfull adventure to become a computer vision engineer, we are excited to have you in our online bootcamp.</p>
+                        <p class="border border-white m-0 my-2 p-2">Welcome to enjoyfull adventure to become a computer vision engineer, we are excited to have you in our online bootcamp.</p>
                         <h2 class="fs-3 fs-md-1 mt-4 text-dark fw-bold">2021.10.15(THU) ~ 16(FRI)</h2>
-                        <p class="fs-5">@ ComputerVZ Companie - León, GTO.</p>
+                        <p class="fs-5 mt-3 pb-5">@ ComputerVZ Companie - León, GTO.</p>
+                        <div class="pb-5"></div>
                       </article>
                     </div>
                   </div>
@@ -90,10 +91,9 @@
               <div class="container-md">
                 <div class="row">
                   <div class="col-12 p-0 m-0">
-                    <article class="mt-5 pt-0 about-section">
-                      <h2 class="mt-2">MASTER COMPUTER VISION'S BOOTCAMP</h2>
-                      <p class="border border-white mt-3 p-2">Check out about our Master to become a computer vision engineer.</p>
-                      <div class="my-2 about-line"></div>
+                    <article class="mt-3 pt-5 about-section">
+                      <h2 class="mt-4 py-2">MASTER COMPUTER VISION'S BOOTCAMP</h2>
+                      <div class="my-4 about-line"></div>
                     </article>
                     <div class="about-cards mt-5">
                       <div class="about-item">
@@ -132,65 +132,94 @@
           </div>
       </section>
       <!--About section ENDS-->
-      <!-- Tickets section STARTS -->
-      <section id="tickets-section">
-        <div class="container-fluid ticket-page">
-            <div class="container-md">
-              <form id="register-form" action="#" method="GET">
-              <div class="row">
-                <div class="col-12">
-                  <article class="mt-5 pt-0 ticket-section">
-                    <h2 class="mt-2 text-center">Select Tickets</h2>
-                    <div class="my-3 about-line"></div>
-                    <p class="border border-light rounded-pill mt-3 p-2 text-center tickets-instructions"> <strong>FIRSTABLE:</strong> Select the day you want to start.</p>
-                    <div class="ticket-grid my-5 text-center align-items-center">
-                      <div class="div1">Ticket </div>
-                      <div class="div2">3 Months-Ticket </div>
-                      <div class="div3">3 Months + Curriculum-Ticket </div>
-                      <div class="div4">CC Afilliate/Partners</div>
-                      <div class="div5">Date STARTS</div>
-                      <div class="div6">15. Oct (Thu)</div>
-                      <div class="div7">24. Oct (Fri)</div>
-                      <div class="div8">23-24. Oct (Thu-Fri)</div>
-                      <div class="div9">23-24. Oct (Thu-Fri)</div>
-                      <div class="div10">Normal</div>
-                      <div class="div11 price-grid d-flex flex-column justify-content-center">USD 750
-                        <input class="mx-auto my-3" type="radio" id="normal-750-date1" name="price-selected" value="usd750">
-                      </div>
-                      <div class="div12 price-grid d-flex flex-column justify-content-center">USD 750
-                        <input class="mx-auto my-3" type="radio" id="normal-750-date2" name="price-selected" value="usd750">
-                      </div>
-                      <div class="div13 price-grid d-flex flex-column justify-content-center">USD 1250
-                        <input class="mx-auto my-3" type="radio" id="normal-1250-date3" name="price-selected" value="usd1250">
-                      </div>
-                      <div class="div14 price-grid d-flex flex-column justify-content-center">USD 10
-                        <input class="mx-auto my-3" type="radio" id="normal-10-vip" name="price-selected" value="usd10">
-                      </div>
-                      <div class="div15">Students</div>
-                      <div class="div16 price-grid d-flex flex-column justify-content-center">USD 450
-                        <input class="mx-auto my-3" type="radio" id="student-450-date1" name="price-selected" value="usd450">
-                      </div>
-                      <div class="div17 price-grid d-flex flex-column justify-content-center">USD 450
-                        <input class="mx-auto my-3" type="radio" id="student-450-date2" name="price-selected" value="usd450">
-                      </div>
-                      <div class="div18 price-grid d-flex flex-column justify-content-center">USD 650
-                        <input class="mx-auto my-3" type="radio" id="student-650-date3" name="price-selected" value="usd650">
-                      </div>
-                      <div class="div19 price-grid d-flex flex-column justify-content-center">USD 0
-                        <input class="mx-auto my-3" type="radio" id="student-0-vip" name="price-selected" value="usd0">
-                      </div>
-                      </div>
-                  </article>
+      <!-- Featured speakers section STARTS -->
+      <section>
+        <div class="container-md py-5">
+          <div class="row mt-2">
+            <h3 class="text-center">Featured Speakers Computer Vision</h3>
+            <div class="my-3 about-line"></div>
+          </div>
+          <div class="row my-3">
+            <div class="col-12 col-md-6 py-3">
+              <div class="featured-speaker-card d-flex">
+                <div class="position-relative image-spaker">
+                  <img class="position-absolute top-0 start-0" src="img/squares.jpg" alt="squares" height="56">
+                  <img class="position-absolute bottom-0 end-0 speaker-img" src="img/speaker1.jpg" alt="speaker1">
+                </div>
+                <div class="ms-3 text-speaker">
+                  <h4>Name Speaker</h4>
+                  <span>Speaker's occupations</span>
+                  <p class="text-speaker-line"></p>
+                  <p class="speaker-bio">He studied in Oxford California at Data Scientis Carreer, but now he is teacher at most common libraries in Python for Data Scientist.</p>
                 </div>
               </div>
-              <div class="row pb-5">
-                <button class="py-4 submit-buttom" type="submit" id="register-submit">Join Master Bootcamp Computer Vision 2021</button>
+              <div class="featured-speaker-card d-flex">
+                <div class="position-relative image-spaker">
+                  <img class="position-absolute top-0 start-0" src="img/squares.jpg" alt="squares" height="56">
+                  <img class="position-absolute bottom-0 end-0 speaker-img" src="img/speaker2.jpg" alt="speaker1">
+                </div>
+                <div class="ms-3 text-speaker">
+                  <h4>Name Speaker</h4>
+                  <span>Speaker's occupations</span>
+                  <p class="text-speaker-line"></p>
+                  <p class="speaker-bio">He studied in Oxford California at Data Scientis Carreer, but now he is teacher at most common libraries in Python for Data Scientist.</p>
+                </div>
               </div>
-            </form>
+              <div class="featured-speaker-card d-flex">
+                <div class="position-relative image-spaker">
+                  <img class="position-absolute top-0 start-0" src="img/squares.jpg" alt="squares" height="56">
+                  <img class="position-absolute bottom-0 end-0 speaker-img" src="img/speaker3.jpg" alt="speaker1">
+                </div>
+                <div class="ms-3 text-speaker">
+                  <h4>Name Speaker</h4>
+                  <span>Speaker's occupations</span>
+                  <p class="text-speaker-line"></p>
+                  <p class="speaker-bio">He studied in Oxford California at Data Scientis Carreer, but now he is teacher at most common libraries in Python for Data Scientist.</p>
+                </div>
+              </div>
             </div>
+            <div class="col-12 col-md-6 py-3">
+              <div class="featured-speaker-card d-flex">
+                <div class="position-relative image-spaker">
+                  <img class="position-absolute top-0 start-0" src="img/squares.jpg" alt="squares" height="56">
+                  <img class="position-absolute bottom-0 end-0 speaker-img" src="img/speaker4.jpg" alt="speaker1">
+                </div>
+                <div class="ms-3 text-speaker">
+                  <h4>Name Speaker</h4>
+                  <span>Speaker's occupations</span>
+                  <p class="text-speaker-line"></p>
+                  <p class="speaker-bio">He studied in Oxford California at Data Scientis Carreer, but now he is teacher at most common libraries in Python for Data Scientist.</p>
+                </div>
+              </div>
+              <div class="featured-speaker-card d-flex">
+                <div class="position-relative image-spaker">
+                  <img class="position-absolute top-0 start-0" src="img/squares.jpg" alt="squares" height="56">
+                  <img class="position-absolute bottom-0 end-0 speaker-img" src="img/speaker5.jpg" alt="speaker1">
+                </div>
+                <div class="ms-3 text-speaker">
+                  <h4>Name Speaker</h4>
+                  <span>Speaker's occupations</span>
+                  <p class="text-speaker-line"></p>
+                  <p class="speaker-bio">He studied in Oxford California at Data Scientis Carreer, but now he is teacher at most common libraries in Python for Data Scientist.</p>
+                </div>
+              </div>
+              <div class="featured-speaker-card d-flex">
+                <div class="position-relative image-spaker">
+                  <img class="position-absolute top-0 start-0" src="img/squares.jpg" alt="squares" height="56">
+                  <img class="position-absolute bottom-0 end-0 speaker-img" src="img/speaker6.jpg" alt="speaker1">
+                </div>
+                <div class="ms-3 text-speaker">
+                  <h4>Name Speaker</h4>
+                  <span>Speaker's occupations</span>
+                  <p class="text-speaker-line"></p>
+                  <p class="speaker-bio">He studied in Oxford California at Data Scientis Carreer, but now he is teacher at most common libraries in Python for Data Scientist.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <!-- Tickets section STARTS -->
+      <!-- Featured speakers section ENDS -->
     </main>
     <!-- Footer STARTS -->
     <footer>
