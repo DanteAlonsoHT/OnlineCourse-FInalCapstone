@@ -33,8 +33,8 @@ I've used 1 breakpoint only, for this reason, the website is responsive for mobi
 To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by command git clone https://github.com/DanteAlonsoHT/OnlineCourse-FInalCapstone.git
-- Cd perma-clone folder
-- Open index.html in the browser
+- Cd OnlineCourse-FInalCapstone folder
+- Open index.html in the browser (you can use Live Server in Visual Studio Code)
 
 ## Getting Started 
 
